@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import pickle
 from sklearn.ensemble import RandomForestClassifier
+
 def myModel():
     import pandas as pd
     penguins = pd.read_csv('Airlines.csv')
