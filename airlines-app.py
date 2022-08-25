@@ -120,9 +120,13 @@ else:
        'WRG', 'TYR', 'BRW', 'GGG', 'PSG', 'BKG', 'YAK', 'CLL', 'SAF',
        'CYS', 'LWB', 'CDV', 'FLO', 'BLI', 'DBQ', 'TOL', 'UTM', 'PIE',
        'ADK', 'ABR', 'TEX', 'MMH', 'GUM'),key="2")
+
         day_of_the_week = st.sidebar.slider('Day of the week', 1,5,7)
+
         time = st.sidebar.slider('Time (hr)', 5,500,1500)
+
         length = st.sidebar.slider('Length of Journey', 0,300,660)
+        
         data = {'Airline': airline,
                 'AirportFrom': airportFrom,
                 'AirportTo': airportTo,
